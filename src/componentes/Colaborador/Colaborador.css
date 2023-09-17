@@ -1,0 +1,48 @@
+h3,h4,p, h5{
+    margin: 0;
+}
+
+.equipo__card{
+    width: 16.375rem;
+    height: 16.813rem;
+    /* background-color: red; */
+    border-radius: 0.625rem;
+    /* border: 1px #1b1b1b solid; */
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 2rem;
+}
+
+.equipo__card-cabecera{
+    width: 100%;
+    height: 100%;
+    height: 5.744rem;
+    /* background-color: #57C278; */
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.equipo__card-img{
+    width: 7.5rem;
+    height: 7.5rem;
+    /* background-color: black; */
+    border-radius: 50%;
+    position: relative;
+    bottom: -30px;
+}
+
+.equipo__card-cuerpo{
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0 0 10px 10px;
+    padding:4.5rem .5rem 1rem .5rem;
+    min-height: 100px;
+    font-family: "Monserrat", sans-serif;
+}
+
+.eliminar{
+    position: absolute;
+    right: -8px;
+    top:-8px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+}
